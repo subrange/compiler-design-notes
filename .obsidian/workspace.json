@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "924e1b2ef5aafded",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d84b429fd4f94937",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compilers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Compilers"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "acb22beb04e2283d",
+    "type": "split",
+    "children": [
+      {
+        "id": "73304fd81b460700",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec2885abb1dc2f83",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2a5969994ac0ad91",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "bb279fdbeba270b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ed6a39ecca6d2a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82d41eec048f7aa3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "484e0136b7b239ea",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "d795cf49a62100c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "d95f3a5b043a8f19",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "d84b429fd4f94937",
+  "lastOpenFiles": [
+    "Learning LLVM.md",
+    "Compilers.md",
+    "Books.md",
+    "Ripe/Old/05-expressions.md",
+    "Ripe/Old/06-safety.md",
+    "Ripe/Old/04-values.md",
+    "Ripe/Old/03-type-system.md",
+    "Ripe/Old/02-types.md",
+    "Ripe/Overview.md",
+    "Ripe/Old/compiler.md",
+    "Ripe/Old/comprehensive.md",
+    "Ripe/Old/ripe.md",
+    "links.md",
+    "Ripe/Old/engineering.md",
+    "().md",
+    "LLVM/LLVM Security Response Group.md",
+    "Jobs/Compiler Engineer at Apple.md",
+    "Ripe/Old/14-tooling.md",
+    "Ripe/Untitled.md",
+    "Ripe/Old/15-diagnostics.md",
+    "Ripe/Old/16-examples.md",
+    "Ripe/Old/index.md",
+    "Ripe/Old/00-overview.md",
+    "LeetCode.md",
+    "2026-02-05.md",
+    "Untitled Kanban.md",
+    "Excalidraw",
+    "main",
+    "LLVM/Untitled",
+    "Jobs",
+    "Community",
+    "LLVM",
+    "Ripe/notes",
+    "Ripe/Old",
+    "Ripe",
+    "Compilers"
+  ]
+}
