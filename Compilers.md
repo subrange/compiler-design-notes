@@ -1,14 +1,13 @@
 # Compilers
 
-Compilers are grouped in three stages: frontend, middle-end (optimization), and backend (code generation).  [Compiler - Wikipedia](https://en.wikipedia.org/wiki/Compiler)  
+Compilers are grouped in three stages: front end, middle-end (optimization), and back end (code generation).  [Compiler - Wikipedia](https://en.wikipedia.org/wiki/Compiler)  
 
-In my opinion, the lexer and the parser are the most boring parts of a compiler. I think the most interesting parts are working on the bounds checking, sanitizers, and lifetime analysis. Also, this is by no means everything about compilers. I’m missing a lot of theoretical related concepts, such as CFGs, nonterminal/terminal, and more.
+In my opinion, the lexer and the parser are the most boring parts of a compiler. I think the most interesting parts are working on the bounds checking, sanitizers, and lifetime analysis. Also, this is by no means everything about compilers. I’m missing a lot of theoretical related concepts, such as CFGs, non terminal/terminal, and more.
 
 # Compilers
 
-There are many existing compilers out there: GCC, Clang/LLVM, RustC, etc.
-
-## Frontend
+There are many existing compilers out there: GCC, Clang/LLVM, Rustc, etc. I’m trying to focus on Clang’s compiler when learning this. You can find definitions here: https://clang.llvm.org/docs/UsersManual.html.
+## Front-end
 
 | Term                                                                             | Description                                                  |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------ |
@@ -37,12 +36,14 @@ The most popular way to build a parser is a [recursive descent parser](https://e
 - [LL parser](https://en.wikipedia.org/wiki/LL_parser) - left-to-right, leftmost-derivation parser
 - [LR parser](https://en.wikipedia.org/wiki/LR_parser) - left-to-right, rightmost-derivation parser
 - [Formal grammar](https://en.wikipedia.org/wiki/Formal_grammar) - formal description of syntax rules
-- [Operator precendence](https://en.wikipedia.org/wiki/Operator-precedence_parser) - grammar rules for operator precedence
+- [Operator precedence](https://en.wikipedia.org/wiki/Operator-precedence_parser) - grammar rules for operator precedence
 
 There are [parser generator tools](https://en.wikipedia.org/wiki/Compiler-compiler) that generate parser from grammar (yacc, menhir, etc)
 
 ## Middle-end
 
+This is the optimization stage (not target specific)  before the assembly generation.
 
-## Backend
+I found that compilers have different architecture models. https://cs.lmu.edu/~ray/notes/compilerarchitecture/. This one from the article is broken up into two-phases: analysis and synthesis. They’re the same stages, just grouped differently.
+## Back-end
 
