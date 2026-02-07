@@ -68,9 +68,17 @@ In my opinion, the lexer and the parser are the most boring parts of a compiler.
 
 This is the optimization stage (not target specific)  before the assembly generation.
 
+Here’s a list of different ways you could optimize a compiler. There is a lot more…
 
+- [SSA](https://en.wikipedia.org/wiki/Static_single_assignment_form) - each variable is assigned **exactly** once.
+- [Inlining](https://en.wikipedia.org/wiki/Inline_expansion) - replace function call with function body 
+- [Loop optimization](https://en.wikipedia.org/wiki/Loop_optimization) - optimize loops (e.g. unrolling)
+- [Dead code elimination](https://en.wikipedia.org/wiki/Dead-code_elimination) - removes dead code
 
+The list goes on.
 
 ---
 ## Back-end
+
+This is where the code generation takes place. 
 
